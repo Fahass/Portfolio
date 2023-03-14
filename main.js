@@ -28,6 +28,8 @@ window.onscroll = function(){
     else{
         topBtn.style.display = "none"
     }
+    links.classList.remove('active')
+    btn.classList.remove('change')
 }
 topBtn.addEventListener("click", function(){
     // document.documentElement.scrollTop = 0;
