@@ -486,6 +486,26 @@
   padding: .5rem;
   margin-bottom: .5rem;
   margin-top: 1rem;
+  -webkit-animation: ring 5s infinite .2s alternate both;
+          animation: ring 5s infinite .2s alternate both;
+}
+
+@-webkit-keyframes ring {
+  0% {
+    border: 3.5px double #234d48;
+  }
+  100% {
+    border: 4px double #6dccc2;
+  }
+}
+
+@keyframes ring {
+  0% {
+    border: 3.5px double #234d48;
+  }
+  100% {
+    border: 4px double #6dccc2;
+  }
 }
 
 @media (max-width: 480px) {
