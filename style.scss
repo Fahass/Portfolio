@@ -376,7 +376,7 @@ $xxl: 1024px;
           padding: .5rem;
           margin-bottom: .5rem;
           margin-top: 1rem;
-          animation: ring 5s infinite .2s alternate both;
+          animation: ring 2.5s infinite .2s alternate both;
           @keyframes ring{
             0%{border: 3.5px double #234d48;}
             100%{border: 4px double #6dccc2}
@@ -415,6 +415,8 @@ $xxl: 1024px;
        h3{
            font-size: 1.3rem;
            font-family: 'Poppins', sans-serif;
+           text-align: center;
+           line-height: 1.2;
        }
     }
 }
@@ -627,9 +629,25 @@ $xxl: 1024px;
                     height: 180px;
                     width: 170px; 
                 }
+                &:nth-child(3){
+                    height: 140px;
+                    width: 160px; 
+                }
                 &:nth-child(4){
                     height: 180px;
-                    width: 170px; 
+                    width: 150px; 
+                }
+                &:nth-child(5){
+                    height: 160px;
+                    width: 190px; 
+                }
+                &:nth-child(6){
+                    height: 130px;
+                    width: 130px;
+                }
+                &:nth-child(7){
+                    height: 130px;
+                    width: 130px;
                 }
                 &:last-child{
                     height: 130px;
@@ -645,6 +663,12 @@ $xxl: 1024px;
                     &:nth-child(4){
                         height: 150px;
                         width: 150px; 
+                    }
+                    &:nth-child(6){
+                        margin-bottom: 0.8rem;
+                    }
+                    &:nth-child(7){
+                        margin-bottom: 0.8rem;
                     }
                 }
             }
